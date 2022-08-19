@@ -1,0 +1,36 @@
+body{
+    background-color : #FFF;
+    color :#000;
+    font-family : Arial, Helvetica, Serif;
+    font-size : 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.create1{
+    margin: 50px 300px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #FFF;
+}
+.create2{
+    display: flex;
+    justify-content: left;
+    float: left;
+    background-color: #FFF;
+    color: #000;
+}
+.create3{
+    display: flex;
+    justify-content: right;
+    float: right;
+    margin-right: 600px;
+    background-color: #FFF;
+    color: #000;
+}
+ img{
+    margin: 50px;
+ }
