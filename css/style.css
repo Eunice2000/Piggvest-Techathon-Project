@@ -1,0 +1,63 @@
+:root {
+    --softMagenta: hsl(257, 40%, 49%);
+    --violet: hsl(300, 69%, 71%);
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    max-width: fit-content;
+  }
+
+.container{
+  box-sizing: border-box;
+  display: flex;
+}
+.main{
+  height: 100%;
+  padding: 70px 30px 0px 30px;
+}
+
+.aside{
+  height: 100%;
+}
+.aside img{
+  margin-top: 20px;
+  width: 80%; 
+}
+
+.bar1_1{
+    margin: 5px 0px;
+}
+
+.bar1_2{
+    margin: 5px 0px;
+}
+
+.bar1_3{
+    margin: 5px 0px;
+}
+
+.button1_1{
+  margin: 15px 0px;
+}
+
+.buttoncombined{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.button1_2{
+  margin-right: 10px;
+}
+
+#section2{
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+}
