@@ -20,7 +20,6 @@
 .footertext{
     margin-left: 120px;
     padding-right: 200px;
-    box-sizing: border-box;
 }
 
 .footertext li{
@@ -53,39 +52,51 @@
     text-align: left;
 }
 
-.product{
+#product{
     margin-top: 88px;
     margin-right: 150px;
     box-sizing: border-box;
 }
 
-.product li{
+#product li{
     font-family: 'Karla', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.01em;
     text-decoration: none;
-    text-align: left;
 }
 
-.product a{
+#product a{
     color: var(--black);
     text-decoration: none;
 }
 
-.product ul:first-child{
-    line-height: 48px;
-    color: var(--blue);
-    font-weight: 500;
+#product p{
+    font-family: 'Karla', sans-serif;
+    color: #06306c;
+    line-height: 36px;
+    font-weight: bold;
 }
-.company{
+
+#company{
     margin-top: 88px;
     padding-right: 150px;
-    box-sizing: border-box;
 }
 
-.company li{
+#company p{
+    font-family: 'Karla', sans-serif;
+    color: #06306c;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+#company a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+#company li{
     font-family: 'Karla', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -95,43 +106,30 @@
     text-align: left;
 }
 
-.company a{
-    color: var(--black);
-    text-decoration: none;
-}
-
-.company ul:first-child{
-    font-weight: bolder;
-    line-height: 48px;
-    color: var(--blue);
-    font-weight: 500;
-}
-
-.legal{
+#legal{
     margin-top: 88px;
     padding-right: 100px;
     box-sizing: border-box;
 }
 
-.legal li{
+#legal p{
+    font-family: 'Karla', sans-serif;
+    color: #06306c;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+#legal li{
     font-family: 'Karla', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.01em;
-    text-decoration: none;
-    text-align: left;
 }
 
-.legal a{
+#legal a{
     color: var(--black);
     text-decoration: none;
-}
-
-.legal ul:first-child{
-    line-height: 48px;
-    color: var(--blue);
-    font-weight: 500;
 }
 
 .moreFooterText{
