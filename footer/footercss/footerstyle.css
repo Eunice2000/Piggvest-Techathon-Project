@@ -101,6 +101,7 @@
 }
 
 .company ul:first-child{
+    font-weight: bolder;
     line-height: 48px;
     color: var(--blue);
     font-weight: 500;
