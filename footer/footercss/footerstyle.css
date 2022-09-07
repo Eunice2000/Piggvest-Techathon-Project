@@ -1,7 +1,7 @@
 :root {
     --lightBlue: rgba(207, 223, 247, 0.4);
     --grey: rgba(217, 217, 217, 1);
-    --blue: #06306c;
+    --blue: rgba(6, 48, 108, 1); 
     --black:rgba(0, 0, 0, 0.8);
   }
   
@@ -62,7 +62,7 @@
     font-family: 'Karla', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 36px;
     letter-spacing: 0.01em;
     text-decoration: none;
 }
@@ -74,8 +74,8 @@
 
 #product p{
     font-family: 'Karla', sans-serif;
-    color: #06306c;
-    line-height: 36px;
+    color: var(--blue);
+    line-height: 48px;
     font-weight: bold;
 }
 
@@ -86,8 +86,8 @@
 
 #company p{
     font-family: 'Karla', sans-serif;
-    color: #06306c;
-    line-height: 36px;
+    color: var(--blue);
+    line-height: 48px;
     font-weight: bold;
 }
 
@@ -100,7 +100,7 @@
     font-family: 'Karla', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 36px;
     letter-spacing: 0.01em;
     text-decoration: none;
     text-align: left;
@@ -114,16 +114,16 @@
 
 #legal p{
     font-family: 'Karla', sans-serif;
-    color: #06306c;
-    line-height: 36px;
-    font-weight: bold;
+    color: var(--blue);
+    line-height: 48px;
+    font-weight: 600;
 }
 
 #legal li{
     font-family: 'Karla', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 36px;
     letter-spacing: 0.01em;
 }
 
@@ -133,6 +133,16 @@
 }
 
 .moreFooterText{
+    margin-top: 24px;
     font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.moretext{
+    color: var(--blue);
+    margin-top: 8px;
+    font-family: 'Karla', sans-serif;
+    font-size: 10px;
     text-align: center;
 }
