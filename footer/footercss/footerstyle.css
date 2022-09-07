@@ -1,0 +1,148 @@
+:root {
+    --lightBlue: rgba(207, 223, 247, 0.4);
+    --grey: rgba(217, 217, 217, 1);
+    --blue: rgba(6, 48, 108, 1); 
+    --black:rgba(0, 0, 0, 0.8);
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+
+.footerbox{
+    background-color: var(--lightBlue);
+    display: flex;
+}
+
+.footertext{
+    margin-left: 120px;
+    padding-right: 200px;
+}
+
+.footertext li{
+    display: inline;
+    margin-bottom: 34px;
+    text-decoration: none;
+}
+
+.footertext a{
+    padding-right: 44px;
+}
+
+.footertext button{
+    width: 205px;
+    margin-top: 88px;
+    margin-bottom: 44px;
+    padding: 35px;
+    border: none;
+    border-radius: 10px;
+}
+
+.footertext p{
+    margin-top: 44px;
+    margin-bottom: 116px;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+#product{
+    margin-top: 88px;
+    margin-right: 150px;
+    box-sizing: border-box;
+}
+
+#product li{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+}
+
+#product a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+#product p{
+    font-family: 'Karla', sans-serif;
+    color: var(--blue);
+    line-height: 48px;
+    font-weight: bold;
+}
+
+#company{
+    margin-top: 88px;
+    padding-right: 150px;
+}
+
+#company p{
+    font-family: 'Karla', sans-serif;
+    color: var(--blue);
+    line-height: 48px;
+    font-weight: bold;
+}
+
+#company a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+#company li{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    text-align: left;
+}
+
+#legal{
+    margin-top: 88px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+
+#legal p{
+    font-family: 'Karla', sans-serif;
+    color: var(--blue);
+    line-height: 48px;
+    font-weight: 600;
+}
+
+#legal li{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+}
+
+#legal a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+.moreFooterText{
+    margin-top: 24px;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.moretext{
+    color: var(--blue);
+    margin-top: 8px;
+    font-family: 'Karla', sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
